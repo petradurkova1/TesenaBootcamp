@@ -1,0 +1,228 @@
+﻿/* Main elements of the page */
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: url('images/yellow_background.png');
+}
+
+#main_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+header
+{
+    background: url('images/line.png') repeat-x bottom;
+    padding: 5px;
+}
+
+
+#logo
+{
+    margin-bottom: 0px;
+    float: left;
+    display: inline-block;
+}
+
+header h1
+{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 2.2em;
+}
+
+header p
+{
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+nav a
+{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 1.4em;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+nav a:hover
+{
+    color: #262626;
+    border-bottom: 3px solid #262626;
+    margin: 6px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    text-align: right;
+    margin: 15px;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+/* Banner */
+#banner_image
+{
+    height: 215px;
+    margin-top: 15px;
+    border-radius: 7px;
+    background: url('images/sanfrancisco.jpg');
+    box-shadow: 0px 5px 5px #262626;
+    margin-bottom: 20px;
+}
+
+#banner_text
+{
+    position:absolute;
+    bottom:420px;
+    left:423px;
+    width:899px;
+    padding:10px 0px 35px 0px;
+    background-color:black;
+    color: white;
+    opacity: 0.70;
+    border-radius: 0px 0px 3px 7px;
+ 
+}
+
+.bnr_button
+{
+    display: inline-block;
+    height: 20px;
+    position: absolute;
+    right: 440px;
+    bottom: 455px;
+    background: url('images/red_background.png') repeat-x;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Body */
+
+article h2
+{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+article
+{
+    width: 65%;
+    margin-right: 15px;
+    text-align:justify;
+    font-size:15px;
+}
+
+aside
+{
+    position:relative;
+    height:500px;
+    float: right;
+    margin-top:-520px;
+    width: 30%;
+    border:solid 2px grey;
+    border-radius:10px;
+    background-color:#706B64;
+    margin-right:0%;
+}
+
+aside h3
+{
+    text-align:center;
+}
+
+#aside_img
+{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aside_arrow
+{
+    position:absolute;
+    margin-left: -12px;
+    margin-top:-85px;
+}
+
+aside p
+{
+    font-size:14px;
+    text-align:justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+aside a
+{
+    margin: 2px;
+    display: inline;
+    float: left;
+}
+
+/* Footer */
+
+
+footer
+{
+    background:  url('images/top.png') no-repeat top center, url('images/line.png') repeat-x top;
+    padding-top: 20px;
+}
+
+ 
+#tweet, #my_pictures, #my_friends
+{
+    display: table-cell;
+}
+
+#tweet
+{
+    width: 20%;
+    font-size:14px;
+}
+
+#my_pictures
+{
+    width: 35%;
+}
+
+#my_friends
+{
+    width: 40%;
+}
+
+#my_pictures img
+{
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+#my_friends ul
+{
+    display: table-cell;
+    width: 35%;
+    list-style-image: url('images/external_link.png');
+    padding-bottom: 25px;
+}
+
+#my_friends a
+{
+    text-decoration: none;
+    color: #802b00;
+}
+
+
+    

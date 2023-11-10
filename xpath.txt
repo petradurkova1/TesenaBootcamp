@@ -1,0 +1,12 @@
+Úkoly Xpath:
+Pomocí jakého xpath získáme názvy knih, které jsou v kategorii "web" ?
+/bookstore/book[@category='web']/title
+
+Xpath, který vrátí všechny ceny, které jsou větší než 35
+/bookstore/book[price > 35]/price
+
+Jaký Xpath použiju, pokud bych chtěl, aby výsledek byl: "Kurt Cagle"
+/bookstore/book[author='Kurt Cagle']/author
+
+Jak získám počet knih z roku 2005?
+count(/bookstore/book[year=2005])
